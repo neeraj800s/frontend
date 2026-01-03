@@ -50,7 +50,6 @@ const AddCourse = () => {
         duration: "12 weeks",
         mode: "Online",
         instructor: "MentriQ Team",
-        instructor: "MentriQ Team",
         category: "Course",
         modules: []
       });
