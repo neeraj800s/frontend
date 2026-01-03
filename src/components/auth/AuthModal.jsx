@@ -22,7 +22,6 @@ const AuthModal = ({ isOpen, onClose, initialTab = 'login' }) => {
     setIsLogin(initialTab === 'login')
   }, [initialTab])
 
-  // Form validation
   const validateForm = () => {
     const newErrors = {}
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
@@ -40,7 +39,6 @@ const AuthModal = ({ isOpen, onClose, initialTab = 'login' }) => {
     return Object.keys(newErrors).length === 0
   }
 
-  // Submit handler
   const handleSubmit = async (e) => {
     e.preventDefault()
     if (!validateForm()) return
@@ -57,13 +55,10 @@ const AuthModal = ({ isOpen, onClose, initialTab = 'login' }) => {
       }
 
       if (result.success) {
-        // ✅ Clear form fields
         setFormData({ name: '', email: '', password: '' })
 
-        // ✅ Close modal
         onClose()
 
-        // ✅ Navigate to home
         navigate('/')
       } else {
         setErrors({ general: result.message })
