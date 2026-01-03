@@ -58,10 +58,10 @@ const Navbar = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg">
                 <span><img className='w-10 h-10 rounded-xl' src={testphoto}/></span>
               </div>
-              <span className="text-2xl font-bold text-[#163aeb]">
+              <span className="lg:text-3xl md:text-2xl sm:text-xl  text-lg  font-bold text-[#163aeb]">
                 MentriQ
               </span>
-              <span className="text-xl font-semibold text-[#ff853f]">Technologies</span>
+              <span className="lg:text-3xl md:text-2xl sm:text-xl  text-lg font-semibold text-[#ff853f]">Technologies</span>
             </Link>
 
             {/* Desktop Menu */}
@@ -149,7 +149,7 @@ const Navbar = () => {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden p-2 rounded-lg hover:bg-gray-100"
+              className="md:hidden  rounded-lg hover:bg-gray-100"
               onClick={() => setMobileOpen(!mobileOpen)}
             >
               {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -163,7 +163,7 @@ const Navbar = () => {
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
                 exit={{ opacity: 0, height: 0 }}
-                className="md:hidden bg-white/95 backdrop-blur-md border-t border-gray-200"
+                className="md:hidden bg-white/95 backdrop-blur-md  border-t border-gray-200"
               >
                 <div className="px-4 pt-2 pb-4 space-y-2">
                   <Link

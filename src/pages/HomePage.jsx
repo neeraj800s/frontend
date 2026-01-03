@@ -622,17 +622,22 @@ const HomePage = () => {
                   alt={partner.name}
                   className="
               h-20 mb-6 object-contain
-              filter grayscale blur-[1px] opacity-60
-              group-hover:grayscale-0 group-hover:blur-0 group-hover:opacity-100
+              grayscale-0 blur-0 opacity-100
+              md:grayscale md:blur-[1px] md:opacity-60
+              md:group-hover:grayscale-0
+              md:group-hover:blur-0
+              md:group-hover:opacity-100
+
               transition-all duration-300
-            "
+              "
                 />
 
                 {/* Company Name */}
                 <p
                   className="
-              text-lg font-semibold text-gray-400
-              group-hover:text-indigo-600
+              text-lg font-semibold
+             text-gray-700
+            md:text-gray-400 md:group-hover:text-indigo-600
               transition-colors duration-300
             "
                 >
