@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="space-y-4">
           <div className="flex items-center space-x-2">
             <div className=" mb-9 bg-gradient-to-r from-indigo-400 to-cyan-400 rounded-xl flex items-center justify-center">
-              <span><img className='w-[100px] h-[60px] rounded-xl' src='../../../public/images/logo.jpg'/></span>
+              <span><img className='w-[100px] h-[60px] rounded-xl' src='/images/logo.jpg'/></span>
             </div>
             <div>
               <h3 className="text-2xl font-bold">MentriQ Technologies</h3>

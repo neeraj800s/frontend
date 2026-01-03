@@ -20,23 +20,23 @@ const HomePage = () => {
   const mentors = [
     { name: "Litesh Singh", image: "/images/litesh.jpg", description: "5+ Years Experience in Automation and Deveops" ,stats: [
       { value: "5+", label: "Years" },
-      { value: "15+", label: "Products" }
+      { value: "15+", label: "Projects" }
     ]},
     { name: "Jeevan Chauhan", image: "/images/jeevan.jpg", description: "5+ Years Experience in Hybrid Applications Development",stats: [
       { value: "5+", label: "Years" },
-      { value: "15+", label: "Products" }
+      { value: "15+", label: "Projects" }
     ] },
     { name: "Yogesh Singh", image: "/images/yogesh.jpg", description: "2+ Years Experience in EntrepreneurShip and Product Management",stats:[
       { value: "2+", label: "Years" },
-      { value: "10+", label: "Products" }
+      { value: "5+", label: "Projects" }
     ] },
-     { name: "Ramswarup Swami", image: "/images/user.png", description: "6+ Years Experience in EntrepreneurShip and Product Management",stats:[
+     { name: "Ramswarup Swami", image: "/images/user.png", description: "6+ Years Experience in Full Stack Development",stats:[
       { value: "6+", label: "Years" },
-      { value: "15+", label: "Products" }
+      { value: "15+", label: "Projects" }
     ] },
     { name: "Shubham Sharma", image: "/images/subhammentors.jpg", description: "5+ years Experience in Full Stack Development",stats: [
       { value: "5+", label: "Years" },
-      { value: "15+", label: "Products" }
+      { value: "15+", label: "Projects" }
     ] },
     { name: "Shiva Rama Krishna", image: "/images/sivaramakrishna.jpg", description: "8+ Years Experience inn Software Engineering",stats: [
       { value: "8+", label: "Years" },
@@ -56,23 +56,23 @@ const HomePage = () => {
     ] },
     { name: "Hardik Sharma", image: "/images/hardik.jpg", description: "2+ Years Experience in Cloud Technologies",stats: [
       { value: "2+", label: "Years" },
-      { value: "10+", label: "Projects" }
+      { value: "5+", label: "Projects" }
     ] },
     { name: "Prince Jain", image: "/images/princejain.jpg", description: "2+ Years Experience in Cyber Security ",stats: [
       { value: "2+", label: "Years" },
-      { value: "10+", label: "Projects" }
+      { value: "5+", label: "Projects" }
     ] },
-    { name: "Dharampal Singh", image: "/public/images/dharampalsingh.jpg", description: "2+ Years Experience in Full Stack Development" ,stats: [
+    { name: "Dharampal Singh", image: "/images/dharampalsingh.jpg", description: "2+ Years Experience in Full Stack Development" ,stats: [
       { value: "2+", label: "Years" },
-      { value: "10+", label: "Projects" }
+      { value: "5+", label: "Projects" }
     ]},
     { name: "Pooja Bharia", image: "/images/poojabharia.jpg", description: "1+ Years Experience in Research Engineer",stats: [
       { value: "1+", label: "Years" },
-      { value: "10+", label: "Projects" }
+      { value: "5+", label: "Projects" }
     ] },
     { name: "Gaurav Sharma", image: "/images/gauravsharma.jpg", description: "1+ Years Experience in Cloud Technologies" ,stats: [
       { value: "1+", label: "Years" },
-      { value: "15+", label: "Projects" }
+      { value: "5+", label: "Projects" }
     ]},
     { name: "Pooja Yadav", image: "/images/poojayadav.jpg", description: "1+ Years Experience in Data Automation" ,stats: [
       { value: "1+", label: "Years" },
@@ -400,7 +400,7 @@ const HomePage = () => {
       <img
         src="/images/First.jpg"
         alt="Hero"
-        className="max-w-md rounded-xl  w-full drop-shadow-2xl"
+        className="max-w-md rounded-xl mb-5 md:w-full drop-shadow-2xl"
       />
     </motion.div>
    
@@ -410,7 +410,7 @@ const HomePage = () => {
 
       
 
-      <section className="py-24 bg-gradient-to-r from-slate-50 to-indigo-50">
+      <section className="py-24 relative overflow-hidden bg-gradient-to-r from-slate-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {stats.map((stat, index) => {
@@ -438,7 +438,7 @@ const HomePage = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-24">
+      <section className="py-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -466,6 +466,7 @@ const HomePage = () => {
                   whileHover={{ scale: 1.05, y: -10 }}
                   viewport={{ once: true }}
                   className="group"
+                  drag={false}
                 >
                   <div className="w-full h-[280px] bg-gradient-to-br from-white to-gray-50 rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100 glass-effect">
                     <div className={`w-16 h-16 mx-auto mb-6 bg-gradient-to-r ${feature.color} rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300`}>
@@ -499,7 +500,7 @@ const HomePage = () => {
         </div>
       </div> */}
       {/*mentors*/}
-     <section className="py-24 bg-gray-100 overflow-hidden">
+     <section className="py-24 relative bg-gray-100 overflow-hidden">
         <h2 className="text-4xl font-bold text-center mb-16">
           Meets Our World Class Mentor
         </h2>
@@ -513,6 +514,7 @@ const HomePage = () => {
             duration: 140,
             ease: "linear",
           }}
+          drag={false}
         >
           {[...mentors, ...mentors].map((item, index) => (
             <div
@@ -553,7 +555,7 @@ const HomePage = () => {
 
 
       {/*testinomial*/}
-      <section className="py-24 bg-gray-100 overflow-hidden">
+      <section className="py-24 relative bg-gray-100 overflow-hidden">
         <h2 className="text-4xl font-bold text-center mb-16">
           What Our Students Say
         </h2>
@@ -567,6 +569,7 @@ const HomePage = () => {
             duration: 120,
             ease: "linear",
           }}
+          drag={false}
         >
           {[...testimonials, ...testimonials].map((item, index) => (
             <div
@@ -595,7 +598,7 @@ const HomePage = () => {
         {/* </div> */}
       </section>
       {/*our associate partner */}
-      <section className="py-24 bg-gray-50">
+      <section className="py-24 relative overflow-hidden bg-gray-50">
         <h2 className="text-4xl font-bold text-center mb-16">
           Our Associate Partners
         </h2>
@@ -643,7 +646,7 @@ const HomePage = () => {
 
 
       {/*languages */}
-      <section className="py-24 bg-gray-900 text-white overflow-hidden">
+      {/* <section className="py-24 bg-gray-900 text-white overflow-hidden">
         <h2 className="text-4xl font-bold text-center mb-16">
           Technologies You Will Learn
         </h2>
@@ -677,10 +680,51 @@ const HomePage = () => {
             </div>
           ))}
         </motion.div>
-      </section>
+      </section> */}
+
+      {/* Technologies */}
+{/* Technologies */}
+<section className="py-24 relative bg-gray-900 text-white overflow-hidden">
+  <h2 className="text-4xl font-bold text-center mb-16">
+    Technologies You Will Learn
+  </h2>
+
+  <motion.div
+    className="flex gap-8 px-8 w-max"
+    animate={{ x: [0, -2200] }}
+    transition={{
+      repeat: Infinity,
+      duration: 30,
+      ease: "linear",
+    }}
+    drag={false}
+  >
+    {[...technologies, ...technologies].map((tech, index) => (
+      <div
+        key={index}
+        className={`
+          min-w-[200px] h-[180px]
+          rounded-3xl shadow-2xl
+          bg-gradient-to-br ${tech.color}
+          flex flex-col items-center justify-center
+          hover:scale-110 transition-transform duration-300
+        `}
+      >
+        <img
+          src={tech.logo}
+          alt={tech.name}
+          className="w-14 h-14 mb-4 object-contain"
+        />
+        <p className="text-lg font-bold">{tech.name}</p>
+      </div>
+    ))}
+  </motion.div>
+</section>
+
+
 
       {/* CTA Section */}
-      <section className="py-24 mt-10 bg-gradient-to-r from-indigo-600 to-cyan-600 text-white">
+      <section className="py-24 overflow-hidden relative mt-10 bg-gradient-to-r from-indigo-600 to-cyan-600 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <motion.h2
             initial={{ opacity: 0, scale: 0.9 }}

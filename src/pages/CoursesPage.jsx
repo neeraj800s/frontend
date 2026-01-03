@@ -157,7 +157,7 @@ const CoursesPage = () => {
       <img
         src="/images/learning4.jpg"
         alt="Contact"
-        className="max-w-md h-[400px] rounded-xl object-cover  w-full drop-shadow-2xl"
+        className="max-w-md h-[400px] rounded-xl object-cover mb-5  md:w-full drop-shadow-2xl"
       />
     </motion.div>
 
