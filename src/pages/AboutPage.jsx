@@ -140,7 +140,7 @@ const AboutPage = () => {
               className="relative"
             >
               <div>
-                  <img className='rounded-xl' src='../../public/images/About.webp'/>
+                  <img className='rounded-xl' src='/images/About.webp'/>
               </div>
               <div className="absolute -inset-2 bg-gradient-to-r from-white/20 to-transparent rounded-3xl blur">
               </div>

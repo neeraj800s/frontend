@@ -18,67 +18,67 @@ const HomePage = () => {
   ]
 
   const mentors = [
-    { name: "Litesh Singh", image: "../../public/images/litesh.jpg", description: "5+ Years Experience in Automation and Deveops" ,stats: [
+    { name: "Litesh Singh", image: "/images/litesh.jpg", description: "5+ Years Experience in Automation and Deveops" ,stats: [
       { value: "5+", label: "Years" },
       { value: "15+", label: "Products" }
     ]},
-    { name: "Jeevan Chauhan", image: "../../public/images/jeevan.jpg", description: "5+ Years Experience in Hybrid Applications Development",stats: [
+    { name: "Jeevan Chauhan", image: "/images/jeevan.jpg", description: "5+ Years Experience in Hybrid Applications Development",stats: [
       { value: "5+", label: "Years" },
       { value: "15+", label: "Products" }
     ] },
-    { name: "Yogesh Singh", image: "../../public/images/yogesh.jpg", description: "2+ Years Experience in EntrepreneurShip and Product Management",stats:[
+    { name: "Yogesh Singh", image: "/images/yogesh.jpg", description: "2+ Years Experience in EntrepreneurShip and Product Management",stats:[
       { value: "2+", label: "Years" },
       { value: "10+", label: "Products" }
     ] },
-     { name: "Ramswarup Swami", image: "../../public/images/user.png", description: "6+ Years Experience in EntrepreneurShip and Product Management",stats:[
+     { name: "Ramswarup Swami", image: "/images/user.png", description: "6+ Years Experience in EntrepreneurShip and Product Management",stats:[
       { value: "6+", label: "Years" },
       { value: "15+", label: "Products" }
     ] },
-    { name: "Shubham Sharma", image: "../../public/images/subhammentors.jpg", description: "5+ years Experience in Full Stack Development",stats: [
+    { name: "Shubham Sharma", image: "/images/subhammentors.jpg", description: "5+ years Experience in Full Stack Development",stats: [
       { value: "5+", label: "Years" },
       { value: "15+", label: "Products" }
     ] },
-    { name: "Shiva Rama Krishna", image: "../../public/images/sivaramakrishna.jpg", description: "8+ Years Experience inn Software Engineering",stats: [
+    { name: "Shiva Rama Krishna", image: "/images/sivaramakrishna.jpg", description: "8+ Years Experience inn Software Engineering",stats: [
       { value: "8+", label: "Years" },
       { value: "20+", label: "Projects" }
     ] },
-    { name: "Lakhan dadhich", image: "../../public/images/lakhan.jpg", description: "3+ Years Experience in Product Management",stats: [
+    { name: "Lakhan dadhich", image: "/images/lakhan.jpg", description: "3+ Years Experience in Product Management",stats: [
       { value: "3+", label: "Years" },
       { value: "7+", label: "Projects" }
     ] },
-    { name: "Venkat Sai", image: "../../public/images/venkatsai.jpg", description: "5+ Years Experience in Oprations Experts",stats: [
+    { name: "Venkat Sai", image: "/images/venkatsai.jpg", description: "5+ Years Experience in Oprations Experts",stats: [
       { value: "5+", label: "Years" },
       { value: "15+", label: "Projects" }
     ] },
-    { name: "Satya Narayan Pradhan", image: "../../public/images/satyanarayan.jpg", description: "5+ Years Experince in Integration Specialist",stats: [
+    { name: "Satya Narayan Pradhan", image: "/images/satyanarayan.jpg", description: "5+ Years Experince in Integration Specialist",stats: [
       { value: "5+", label: "Years" },
       { value: "20+", label: "Projects" }
     ] },
-    { name: "Hardik Sharma", image: "../../public/images/hardik.jpg", description: "2+ Years Experience in Cloud Technologies",stats: [
+    { name: "Hardik Sharma", image: "/images/hardik.jpg", description: "2+ Years Experience in Cloud Technologies",stats: [
       { value: "2+", label: "Years" },
       { value: "10+", label: "Projects" }
     ] },
-    { name: "Prince Jain", image: "../../public/images/princejain.jpg", description: "2+ Years Experience in Cyber Security ",stats: [
+    { name: "Prince Jain", image: "/images/princejain.jpg", description: "2+ Years Experience in Cyber Security ",stats: [
       { value: "2+", label: "Years" },
       { value: "10+", label: "Projects" }
     ] },
-    { name: "Dharampal Singh", image: "../../public/images/dharampalsingh.jpg", description: "2+ Years Experience in Full Stack Development" ,stats: [
+    { name: "Dharampal Singh", image: "/public/images/dharampalsingh.jpg", description: "2+ Years Experience in Full Stack Development" ,stats: [
       { value: "2+", label: "Years" },
       { value: "10+", label: "Projects" }
     ]},
-    { name: "Pooja Bharia", image: "../../public/images/poojabharia.jpg", description: "1+ Years Experience in Research Engineer",stats: [
+    { name: "Pooja Bharia", image: "/images/poojabharia.jpg", description: "1+ Years Experience in Research Engineer",stats: [
       { value: "1+", label: "Years" },
       { value: "10+", label: "Projects" }
     ] },
-    { name: "Gaurav Sharma", image: "../../public/images/gauravsharma.jpg", description: "1+ Years Experience in Cloud Technologies" ,stats: [
+    { name: "Gaurav Sharma", image: "/images/gauravsharma.jpg", description: "1+ Years Experience in Cloud Technologies" ,stats: [
       { value: "1+", label: "Years" },
       { value: "15+", label: "Projects" }
     ]},
-    { name: "Pooja Yadav", image: "../../public/images/poojayadav.jpg", description: "1+ Years Experience in Data Automation" ,stats: [
+    { name: "Pooja Yadav", image: "/images/poojayadav.jpg", description: "1+ Years Experience in Data Automation" ,stats: [
       { value: "1+", label: "Years" },
       { value: "5+", label: "Projects" }
     ]},
-    { name: "Sameer Khan", image: "../../public/images/sameer.jpg", description: "1+ Years Experience in Full Stack Development",stats: [
+    { name: "Sameer Khan", image: "/images/sameer.jpg", description: "1+ Years Experience in Full Stack Development",stats: [
       { value: "1+", label: "Years" },
       { value: "5+", label: "Projects" }
     ] },
@@ -139,137 +139,137 @@ const HomePage = () => {
     {
       name: "Neeraj Shekhawat",
       feedback: "MentriQ helped me build real projects and crack my first job.",
-      image: "../../public/images/neeraj.jpg",
+      image: "/images/neeraj.jpg",
     },
     {
       name: "Bhupendra Skekhawat",
       feedback: "Live classes and mentor support were outstanding.",
-      image: "../../public/images/bhupendra.jpg",
+      image: "/images/bhupendra.jpg",
     },
     {
       name: "Amit Naruka",
       feedback: "I gained confidence after completing hands-on projects.",
-      image: "../../public/images/amit.jpg",
+      image: "/images/amit.jpg",
     },
     {
       name: "Aryan Barot",
       feedback: "The course helped me understand core programming concepts in a very practical way.",
-      image: "../../public/images/barot.jpg",
+      image: "/images/barot.jpg",
     },
     {
       name: "Krishan Rajawat",
       feedback: "Hands-on projects made learning technology much easier and more interesting.",
-      image: "../../public/images/krishnarajawat.jpg",
+      image: "/images/krishnarajawat.jpg",
     },
 
     {
       name: "Bhanu Pratap",
       feedback: "The instructor explained complex topics like backend and databases very clearly.",
-      image: "../../public/images/bhanu.jpg",
+      image: "/images/bhanu.jpg",
     },
     {
       name: "Disha sharma",
       feedback: "Real-world examples helped me understand how tech is used in the industry.",
-      image: "../../public/images/disha2.jpg",
+      image: "/images/disha2.jpg",
     },
     {
       name: "Saloni Choudhary",
       feedback: "The learning materials were up to date with current technologies.",
-      image: "../../public/images/saloni.jpg",
+      image: "/images/saloni.jpg",
     },
     {
       name: "Garv Bhatiya",
       feedback: "I learned how frontend and backend work together in real applications.",
-      image: "../../public/images/garv.jpg",
+      image: "/images/garv.jpg",
     },
 
     {
       name: "Vaibhav Sharma",
       feedback: "The course structure was well-organized and beginner-friendly.",
-      image: "../../public/images/vaibhav.jpg",
+      image: "/images/vaibhav.jpg",
     },
     
     {
       name: "Shikhar Singhal",
       feedback: "Mentors helped me improve my logical thinking and coding practices.",
-      image: "../../public/images/sikhar.jpg",
+      image: "/images/sikhar.jpg",
     },
     {
       name: "Rohit Sharma",
       feedback: "Industry-level projects gave me a clear idea of real software development.",
-      image: "../../public/images/rohit.jpg",
+      image: "/images/rohit.jpg",
     },
     {
       name: "Krati Khandelwal",
       feedback: "Practical labs helped me gain hands-on experience with tools and frameworks.",
-      image: "../../public/images/krati.jpg",
+      image: "/images/krati.jpg",
     },
     {
       name: "Pratyush Shrivastav",
       feedback: "The course helped me prepare for internships and technical interviews.",
-      image: "../../public/images/praytush.jpg",
+      image: "/images/praytush.jpg",
     },
     {
       name: "Aditya Pratap",
       feedback: "Support from mentors was quick and very helpful.",
-      image: "../../public/images/aditya.jpg",
+      image: "/images/aditya.jpg",
     },
     {
       name: "Anushka Jain",
       feedback: "Overall, this tech course was very useful and career-oriented.",
-      image: "../../public/images/anushka.jpg",
+      image: "/images/anushka.jpg",
     },
     {
       name: "Harsh Singh",
       feedback: "Regular assessments helped me track my learning progress.",
-      image: "../../public/images/harsh.jpg",
+      image: "/images/harsh.jpg",
     },
     {
       name: "Mohit Kumar",
       feedback: "Doubt-clearing sessions were very helpful and interactive.",
-      image: "../../public/images/mohit.jpg",
+      image: "/images/mohit.jpg",
     },
     {
       name: "Prince Sharma",
       feedback: "I enjoyed learning new technologies like React.js and Node.js through this course.",
-      image: "../../public/images/prince.jpg",
+      image: "/images/prince.jpg",
     },
     {
       name: "Kunal Pandey",
       feedback: "Learning in a project-based way made it easier to remember concepts.",
-      image: "../../public/images/kunal.jpg",
+      image: "/images/kunal.jpg",
     },
 
   ]
 
 
   const partners = [
-    { name: "HD Media Network", logo: "../../public/images/hdmedia.jpg" },
-    { name: "SkyServer", logo: "../../public/images/skyserver.jpg" },
-    { name: "Singh Enterprises", logo: "../../public/images/singh.jpg"},
-    { name: "Falcons Beyond Imagination", logo: "../../public/images/falcons.png" },
-    { name: "Voltzenic Motors", logo: "../../public/images/volt.png" },
-    { name: "Ashok Infratech", logo: "../../public/images/ashok.jpg" },
-    { name: "Shekhawat Group of Industries", logo: "../../public/images/shekhawat.png"},
-    { name: "BIMPro Solutions pvt ltd", logo: "../../public/images/bimpro.jpg"},
-    { name: "Milan Power", logo: "../../public/images/milanPower.png"},
-    { name: "PU incent", logo: "../../public/images/puIncent.png"},
-    { name: "UPnex", logo: "../../public/images/upnex.jpg"},
-    { name: "NT Education", logo: "../../public/images/nt.jpg"},
+    { name: "HD Media Network", logo: "/images/hdmedia.jpg" },
+    { name: "SkyServer", logo: "/images/skyserver.jpg" },
+    { name: "Singh Enterprises", logo: "/images/singh.jpg"},
+    { name: "Falcons Beyond Imagination", logo: "/images/falcons.png" },
+    { name: "Voltzenic Motors", logo: "/images/volt.png" },
+    { name: "Ashok Infratech", logo: "/images/ashok.jpg" },
+    { name: "Shekhawat Group of Industries", logo: "/images/shekhawat.png"},
+    { name: "BIMPro Solutions pvt ltd", logo: "/images/bimpro.jpg"},
+    { name: "Milan Power", logo: "/images/milanPower.png"},
+    { name: "PU incent", logo: "/images/puIncent.png"},
+    { name: "UPnex", logo: "/images/upnex.jpg"},
+    { name: "NT Education", logo: "/images/nt.jpg"},
   ]
 
   const technologies = [
-    { name: "HTML", logo: "../../public/images/html.png", color: "from-orange-500 to-red-500" },
-    { name: "CSS", logo: "../../public/images/css.png", color: "from-blue-500 to-cyan-500" },
-    { name: "JavaScript", logo: "../../public/images/js.png", color: "from-yellow-400 to-yellow-600" },
-    { name: "React", logo: "../../public/images/react.png", color: "from-cyan-400 to-blue-500" },
-    { name: "Node.js", logo: "../../public/images/Node.js_logo.svg.png", color: "from-green-500 to-emerald-600" },
-    { name: "Express.js", logo: "../../public/images/express2.webp", color: "from-yellow-200 to-yellow-100" },
-    { name: "MongoDB", logo: "../../public/images/mongodb.png", color: "from-green-600 to-green-800" },
-    { name: "SQL", logo: "../../public/images/sql.png", color: "from-indigo-500 to-purple-600" },
-    { name: "Java", logo: "../../public/images/java.png", color: "from-red-500 to-orange-600" },
-    { name: "Blockchain", logo: "../../public/images/blockchain.png", color: "from-purple-500 to-pink-500" },
-    { name: "Python", logo: "../../public/images/python.png", color: "from-orange-500 to-red-600" },
+    { name: "HTML", logo: "/images/html.png", color: "from-orange-500 to-red-500" },
+    { name: "CSS", logo: "/images/css.png", color: "from-blue-500 to-cyan-500" },
+    { name: "JavaScript", logo: "/images/js.png", color: "from-yellow-400 to-yellow-600" },
+    { name: "React", logo: "/images/react.png", color: "from-cyan-400 to-blue-500" },
+    { name: "Node.js", logo: "/images/Node.js_logo.svg.png", color: "from-green-500 to-emerald-600" },
+    { name: "Express.js", logo: "/images/express2.webp", color: "from-yellow-200 to-yellow-100" },
+    { name: "MongoDB", logo: "/images/mongodb.png", color: "from-green-600 to-green-800" },
+    { name: "SQL", logo: "/images/sql.png", color: "from-indigo-500 to-purple-600" },
+    { name: "Java", logo: "/images/java.png", color: "from-red-500 to-orange-600" },
+    { name: "Blockchain", logo: "/images/blockchain.png", color: "from-purple-500 to-pink-500" },
+    { name: "Python", logo: "/images/python.png", color: "from-orange-500 to-red-600" },
   ]
 
 
@@ -398,7 +398,7 @@ const HomePage = () => {
       className="flex justify-center"
     >
       <img
-        src="../../public/images/First.jpg"
+        src="/images/First.jpg"
         alt="Hero"
         className="max-w-md rounded-xl  w-full drop-shadow-2xl"
       />

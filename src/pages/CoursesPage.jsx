@@ -155,7 +155,7 @@ const CoursesPage = () => {
       className="flex justify-center"
     >
       <img
-        src="../../public/images/learning4.jpg"
+        src="/images/learning4.jpg"
         alt="Contact"
         className="max-w-md h-[400px] rounded-xl object-cover  w-full drop-shadow-2xl"
       />
