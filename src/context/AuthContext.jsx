@@ -54,7 +54,7 @@ export const AuthProvider = ({ children }) => {
     }
 
     try {
-      const res = await apiClient.get("/auth/me");
+      const res = await apiClient.get("/api/auth/me");
       dispatch({ type: "AUTH_SUCCESS", payload: res.data.user });
       await checkEnrollments();
     } catch {
@@ -76,7 +76,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const res = await apiClient.post("/auth/login", { email, password });
+      const res = await apiClient.post("/api/auth/login", { email, password });
       sessionStorage.setItem("token", res.data.token);
       await loadUser();
       return { success: true };
@@ -90,7 +90,7 @@ export const AuthProvider = ({ children }) => {
 
   const register = async (name, email, password) => {
     try {
-      const res = await apiClient.post("/auth/register", { name, email, password });
+      const res = await apiClient.post("/api/auth/register", { name, email, password });
       sessionStorage.setItem("token", res.data.token);
       await loadUser();
       return { success: true };
