@@ -14,7 +14,7 @@ const HomePage = () => {
     { number: '2K+', icon: Users, label: 'Students Trained' },
     { number: '50+', icon: BookOpen, label: 'Live Courses' },
     { number: '98%', icon: Award, label: 'Placement Rate' },
-    { number: '100+', icon: Clock, label: 'Expert Trainers' }
+    { number: '60+', icon: Clock, label: 'Expert Trainers' }
   ]
 
   const mentors = [
@@ -251,7 +251,7 @@ const HomePage = () => {
     { name: "Voltzenic Motors", logo: "/images/volt.png" },
     { name: "Ashok Infratech", logo: "/images/ashok.jpg" },
     { name: "Shekhawat Group of Industries", logo: "/images/shekhawat2.jpeg"},
-    { name: "BIMPro Solutions pvt ltd", logo: "/images/bimpro.jpg"},
+    { name: "BIMPro Solutions pvt ltd", logo: "/images/bimpro2.jpeg"},
     { name: "Milan Power", logo: "/images/milanPower.png"},
     { name: "PU incent", logo: "/images/puIncent.png"},
     { name: "UPnex", logo: "/images/upnex2.jpeg"},
