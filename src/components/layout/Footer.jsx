@@ -5,11 +5,10 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-indigo-900 to-cyan-900 text-white py-12 mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Logo & Description */}
         <div className="space-y-4">
           <div className="flex items-center space-x-2">
             <div className=" mb-9 bg-gradient-to-r from-indigo-400 to-cyan-400 rounded-xl flex items-center justify-center">
-              <span><img className='w-[100px] h-[60px] rounded-xl' src='/images/logo.jpg'/></span>
+              <span><img className='w-[60px] h-[40px] rounded-xl' src='/images/logo.jpg'/></span>
             </div>
             <div>
               <h3 className="text-2xl font-bold">MentriQ Technologies</h3>
@@ -32,7 +31,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Quick Links */}
         <div>
           <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
           <ul className="space-y-3">
@@ -43,7 +41,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Company */}
         <div>
           <h4 className="text-lg font-semibold mb-6">Company</h4>
           <ul className="space-y-3">
@@ -54,7 +51,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Newsletter */}
         <div>
           <h4 className="text-lg font-semibold mb-6">Stay Updated</h4>
           <p className="text-indigo-200 mb-4">Get latest course updates & offers</p>
@@ -64,7 +60,7 @@ const Footer = () => {
               placeholder="your@email.com"
               className="flex-1 px-4 py-3 rounded-l-xl bg-white/20 backdrop-blur-sm border-0 focus:ring-2 focus:ring-indigo-400 text-white placeholder-indigo-200"
             />
-            <button className="px-6 py-3 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-r-xl hover:shadow-xl transition-all duration-300 font-semibold">
+            <button className="px-3 py-3 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-r-xl hover:shadow-xl transition-all duration-300 font-semibold">
               Subscribe
             </button>
           </div>

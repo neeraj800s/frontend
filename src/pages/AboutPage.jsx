@@ -10,9 +10,9 @@ const AboutPage = () => {
   ]
 
   const timeline = [
-    { year: '2023', title: 'Founded', desc: 'MentriQ Technologies started with mission to skill 1M students' },
-    { year: '2024', title: 'First Batch', desc: 'Launched first React Developer bootcamp with 95% placement' },
-    { year: '2025', title: 'Scale Up', desc: 'Expanded to 20+ courses, 1K+ students trained' }
+    { year: '2024', title: 'Founded', desc: 'MentriQ Technologies started with mission to skill 1M students' },
+    { year: '2025', title: 'First Batch', desc: 'Launched first React Developer bootcamp with 95% placement' },
+    { year: '2026', title: 'Scale Up', desc: 'Expanded to 20+ courses, 1K+ students trained' }
   ]
 
   return (
@@ -45,7 +45,6 @@ const AboutPage = () => {
       Join us to unlock your potential and build a successful future.
     </motion.p>
 
-    {/* Highlights / Core Values */}
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -53,19 +52,19 @@ const AboutPage = () => {
       className="flex flex-wrap justify-center gap-6 text-gray-200 text-base md:text-lg"
     >
       <span className="px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-        🚀 Expert Mentors
+         Expert Mentors
       </span>
       <span className="px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-        🧩 Hands-on Projects
+         Hands-on Projects
       </span>
       <span className="px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-        🎯 Career Support
+        Career Support
       </span>
       <span className="px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-        🌐 Industry-Relevant Curriculum
+         Industry-Relevant Curriculum
       </span>
       <span className="px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-        💡 Innovative Learning Methods
+         Innovative Learning Methods
       </span>
     </motion.div>
 
@@ -161,7 +160,7 @@ const AboutPage = () => {
           </motion.h2>
           <div className="relative py-16">
   {/* Center line */}
-  <div className="absolute left-1/2 -translate-x-1/2 w-1 h-full bg-gradient-to-b from-indigo-500 to-cyan-500" />
+  <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:w-1 md:h-full md:bg-indigo-500  md:block hidden" />
 
   <div className="space-y-16">
     {timeline.map((item, index) => (
@@ -172,7 +171,6 @@ const AboutPage = () => {
         viewport={{ once: true, amount: 0.3 }}
         className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
       >
-        {/* LEFT SIDE CONTENT (even index) */}
         {index % 2 === 0 && (
           <>
             <div className="hidden md:flex justify-end pr-10">
@@ -197,15 +195,12 @@ const AboutPage = () => {
               </div>
             </div>
 
-            {/* right side spacer */}
             <div className="md:block" />
           </>
         )}
 
-        {/* RIGHT SIDE CONTENT (odd index) */}
         {index % 2 !== 0 && (
           <>
-            {/* left side spacer */}
             <div className="md:block" />
 
             <div className="hidden md:flex justify-start pl-10">
@@ -230,7 +225,6 @@ const AboutPage = () => {
           </>
         )}
 
-        {/* MOBILE VIEW (single column, center aligned) */}
         <div className="md:hidden text-center">
           <div
             className={`inline-block p-4 rounded-2xl mb-2 shadow-xl ${

@@ -23,13 +23,13 @@
               transition={{ delay: i * 0.1 }}
               className="bg-white rounded-3xl shadow-xl p-6 hover:shadow-2xl"
             >
-              <h2 className="text-xl font-bold">{e.course.title}</h2>
-              <p className="text-gray-600 mt-2">{e.course.description}</p>
+              <h2 className="text-xl font-bold">{e.course?.title}</h2>
+              <p className="text-gray-600 mt-2">{e.course?.description}</p>
               <p className="mt-4 font-semibold text-indigo-600"><span className="text-black font-semibold">Price:- </span>
-                ₹{e.course.price}
+                ₹{e.course?.price}
               </p>
-              <p className="mt-4 font-semibold text-indigo-600"> <span className="text-black font-semibold">Duration:- </span>{e.course.duration}</p>
-              <p className="mt-4 font-semibold text-indigo-600"><span className="text-black font-semibold">Level:- </span>{e.course.level}</p>
+              <p className="mt-4 font-semibold text-indigo-600"> <span className="text-black font-semibold">Duration:- </span>{e.course?.duration}</p>
+              <p className="mt-4 font-semibold text-indigo-600"><span className="text-black font-semibold">Level:- </span>{e.course?.level}</p>
             </motion.div>
           ))}
         </div>

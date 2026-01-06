@@ -168,7 +168,7 @@ const Dashboard = () => {
                     const { data } = await api.post('/upload', formData, {
                       headers: { 'Content-Type': 'multipart/form-data' }
                     })
-                    // Fix: VITE_API_BASE_URL includes /api, but uploads are at root /uploads
+          
                     const serverUrl = import.meta.env.VITE_API_BASE_URL.replace('/api', '')
                     setNewCourse({ ...newCourse, thumbnailUrl: serverUrl + data })
                     alert("Image Uploaded Successfully!")

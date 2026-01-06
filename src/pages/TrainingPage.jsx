@@ -32,26 +32,6 @@ const TrainingPage = () => {
 
     return (
         <div className="min-h-screen pt-0 bg-gradient-to-br from-slate-50 to-indigo-50">
-            {/* Hero Section */}
-            {/* <section className="py-24 text-center text-white bg-gradient-to-br from-indigo-600 via-purple-600 to-cyan-600 relative overflow-hidden">
-                <div className="absolute inset-0 bg-black/20" />
-                <div className="relative max-w-6xl mx-auto px-4">
-                    <motion.h1
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="text-5xl md:text-7xl font-bold mb-6 bg-white bg-clip-text text-transparent drop-shadow-2xl"
-                    >
-                        Professional Training
-                    </motion.h1>
-                    <motion.p
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="text-xl md:text-2xl max-w-3xl mx-auto mb-12"
-                    >
-                        Master the most in-demand skills with our expert-led training programs
-                    </motion.p>
-                </div>
-            </section> */}
             {/* Training Hero Section */}
 <section className="relative py-32 text-white overflow-hidden bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#020617]">
   
@@ -90,20 +70,18 @@ const TrainingPage = () => {
       className="flex flex-wrap justify-center gap-6 text-gray-200 text-base md:text-lg"
     >
       <span className="px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-        🚀 Live Expert Sessions
+         Live Expert Sessions
       </span>
       <span className="px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-        🧠 Practical Hands-on Training
+         Practical Hands-on Training
       </span>
       <span className="px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-        🎯 Career-Focused Curriculum
+         Career-Focused Curriculum
       </span>
     </motion.div>
 
   </div>
 </section>
-
-
             {/* Search + Stats */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
                 <div className="flex flex-col lg:flex-row gap-8 items-center justify-between mb-20">

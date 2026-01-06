@@ -113,7 +113,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    localStorage.removeItem("token"); // Cleanup old persistence
+    localStorage.removeItem("token"); 
     loadUser();
   }, []);
 

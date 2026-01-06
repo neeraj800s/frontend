@@ -80,7 +80,6 @@ const CourseDetailPage = () => {
       return;
     }
 
-    // Navigate to Enrollment Form Page instead of direct API
     navigate(`/enroll/${id}`);
   };
 
@@ -116,18 +115,15 @@ const CourseDetailPage = () => {
         </a>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Image */}
           <div className="h-96 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-3xl flex items-center justify-center">
             <Play className="text-white w-28 h-28" />
           </div>
 
-          {/* Info */}
           <div>
             <h1 className="text-4xl font-bold mb-4">{title}</h1>
             <p className="text-gray-600 mb-6">{description}</p>
 
             <div className="flex gap-6 mb-8">
-              {/* Price Hidden */}
 
               <div>
                 <p className="font-bold">{duration}</p>
@@ -139,7 +135,6 @@ const CourseDetailPage = () => {
               </div>
             </div>
 
-            {/* 🔥 ENROLL BUTTON */}
             <button
               onClick={handleEnroll}
               disabled={enrolled}
@@ -192,7 +187,7 @@ const CourseDetailPage = () => {
         <div className="mt-24 text-center">
           <h3 className="text-2xl font-bold">{instructor}</h3>
           <p className="text-gray-600 mt-2">
-            10+ years Full Stack Experience
+            2+ years  Experience
           </p>
         </div>
       </section>

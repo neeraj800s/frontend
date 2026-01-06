@@ -64,36 +64,6 @@ const TrainingDetailPage = () => {
     }, [id, isAuthenticated])
 
 
-    // const handleEnroll = async () => {
-    //     if (!isAuthenticated) {
-    //         openAuthModal();
-    //         return;
-    //     }
-
-
-    //     if (enrolled) {
-    //         alert("You are already enrolled in this training!");
-    //         return;
-    //     }
-
-    //     try {
-    //         await apiClient.post("/enrollments", { courseId: id });
-    //         setEnrolled(true);
-    //         await checkEnrollments();
-    //         // Navigate to success page
-    //         navigate("/enrollment-success", { state: { course } });
-    //     } catch (err) {
-    //         console.log(err);
-    //         if (err.response?.status === 401) {
-    //             alert("You are not authorized. Please login again.");
-    //             logout();
-    //             window.location.href = "/#auth";
-    //         } else {
-    //             alert(err.response?.data?.message || "Enrollment failed!");
-    //         }
-    //     }
-    // };
-
      const handleEnroll = async () => {
     if (!isAuthenticated) {
       openAuthModal();
@@ -105,7 +75,6 @@ const TrainingDetailPage = () => {
       return;
     }
 
-    // Navigate to Enrollment Form Page instead of direct API
     navigate(`/enrollf/${id}`);
   };
 
@@ -164,7 +133,7 @@ const TrainingDetailPage = () => {
                             </div>
                         </div>
 
-                        {/* 🔥 ENROLL BUTTON */}
+                        {/*  ENROLL BUTTON */}
                         <button
                             onClick={handleEnroll}
                             disabled={enrolled}
@@ -198,23 +167,6 @@ const TrainingDetailPage = () => {
                     <h2 className="text-3xl font-bold mb-10 text-center">
                         Training Modules
                     </h2>
-
-                    {/* <div className="grid md:grid-cols-2 gap-6">
-                        {modules.length > 0 ? (
-                            modules.map((m, i) => (
-                                <div key={i} className="bg-white p-6 rounded-2xl shadow">
-                                    <h4 className="font-bold">{i + 1}. {m}</h4>
-                                </div>
-                            ))
-                        ) : (
-                            // Default modules if none provided
-                            ["Module 1: Fundamentals", "Module 2: Advanced Topics", "Module 3: Practical Projects"].map((m, i) => (
-                                <div key={i} className="bg-white p-6 rounded-2xl shadow">
-                                    <h4 className="font-bold">{m}</h4>
-                                </div>
-                            ))
-                        )}
-                    </div> */}
                     <div className="grid md:grid-cols-2 gap-6">
             {modules.map((m, i) => (
               <div

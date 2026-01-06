@@ -65,7 +65,7 @@ const Navbar = () => {
             </Link>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-4">
               <Link
                 to="/"
                 className={`py-2 px-3 text-lg font-medium rounded-lg transition-all duration-300 ${location.pathname === '/'
@@ -98,14 +98,18 @@ const Navbar = () => {
 
               <Link
                 to="/about"
-                className="py-2 px-3 text-lg font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-300"
+                className={`py-2 px-3 text-lg font-medium rounded-lg transition-all duration-300 ${location.pathname === '/about'
+                    ? 'bg-gradient-to-r from-indigo-500 to-cyan-500 text-white shadow-lg'
+                    : 'text-gray-700 hover:text-indigo-600 hover:bg-indigo-50'}`}
               >
                 About
               </Link>
 
               <Link
                 to="/contact"
-                className="py-2 px-3 text-lg font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-300"
+                className={`py-2 px-3 text-lg font-medium rounded-lg transition-all duration-300 ${location.pathname === '/contact'
+                    ? 'bg-gradient-to-r from-indigo-500 to-cyan-500 text-white shadow-lg'
+                    : 'text-gray-700 hover:text-indigo-600 hover:bg-indigo-50'}`}
               >
                 Contact
               </Link>

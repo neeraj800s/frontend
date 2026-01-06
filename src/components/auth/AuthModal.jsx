@@ -180,7 +180,7 @@ const AuthModal = ({ isOpen, onClose, initialTab = 'login' }) => {
                 <Lock className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
                 <input
                   type={showPassword ? 'text' : 'password'}
-                  placeholder="Create strong password"
+                  placeholder="Enter Your Password"
                   value={formData.password}
                   autoComplete="off"
                   onChange={(e) => setFormData({ ...formData, password: e.target.value })}

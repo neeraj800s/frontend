@@ -13,11 +13,11 @@ const ContactPage = () => {
   const [submitted, setSubmitted] = useState(false)
   const navigate = useNavigate();
 
-  const phoneNumber = "+918005521010";
+  const phoneNumber = "+918890301264";
   const message = "Hello, I want to chat with you!"
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
-  const email = "yogeshsingh48743@gmail.com";
+  const email = "support@mentriqtechnologies.in";
   const subject = "Support Request"; 
   const body = "Hello, I need help with...";
 
@@ -147,7 +147,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 group-hover:text-indigo-600">Email</h3>
-                    <a href="mailto:hello@mentriq.com" className="text-2xl font-bold text-indigo-600 hover:text-indigo-700">hello@mentriq.com</a>
+                    <a href="mailto:hello@mentriq.com" className="text-2xl font-bold text-indigo-600 hover:text-indigo-700">support@mentriqtechnologies.in</a>
                   </div>
                 </div>
               </motion.div>
@@ -162,7 +162,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 group-hover:text-emerald-600">Phone</h3>
-                    <a href="tel:+919876543210" className="text-2xl font-bold text-emerald-600 hover:text-emerald-700">+91 8005521010</a>
+                    <a href="tel:+919876543210" className="text-2xl font-bold text-emerald-600 hover:text-emerald-700">+91 8890301264</a>
                   </div>
                 </div>
               </motion.div>
@@ -177,8 +177,8 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 group-hover:text-purple-600">Location</h3>
-                    <p className="text-2xl font-bold text-purple-600">Jaipur, Rajasthan</p>
-                    <p className="text-gray-600 mt-1">Plot 123, Tech Park, Jaipur</p>
+                    <p className="text-2xl font-bold text-purple-600"> Sanganer Jaipur, Rajasthan</p>
+                    <p className="text-gray-600 mt-1">Rampura Road Sanganer</p>
                   </div>
                 </div>
               </motion.div>

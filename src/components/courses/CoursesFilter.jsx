@@ -31,7 +31,6 @@ const CoursesFilter = ({ filters, setFilters, categories = [] }) => {
       animate={{ opacity: 1, y: 0 }}
       className="sticky top-20 z-10 bg-white/80 backdrop-blur-md shadow-lg border border-gray-200 rounded-3xl p-6 mb-12"
     >
-      {/* Filter Toggle Mobile */}
       <button
         onClick={() => setOpen(!open)}
         className="md:hidden w-full flex items-center justify-between py-4 px-6 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white rounded-2xl font-semibold mb-6 hover:shadow-xl hover:scale-105 transition-all duration-300"
@@ -43,9 +42,7 @@ const CoursesFilter = ({ filters, setFilters, categories = [] }) => {
         <Filter size={20} className={`transition-transform ${open ? 'rotate-180' : ''}`} />
       </button>
 
-      {/* Filters Grid */}
       <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 ${open ? 'block' : 'md:block hidden'}`}>
-        {/* Category Filter */}
         <div>
           <label className="block text-sm font-semibold text-gray-700 mb-3">Category</label>
           <div className="space-y-2 max-h-40 overflow-y-auto">
@@ -66,7 +63,6 @@ const CoursesFilter = ({ filters, setFilters, categories = [] }) => {
           </div>
         </div>
 
-        {/* Level Filter */}
         <div>
           <label className="block text-sm font-semibold text-gray-700 mb-3">Level</label>
           <div className="space-y-2">
@@ -87,7 +83,6 @@ const CoursesFilter = ({ filters, setFilters, categories = [] }) => {
           </div>
         </div>
 
-        {/* Price Filter */}
         <div>
           <label className="block text-sm font-semibold text-gray-700 mb-3">Price Range</label>
           <div className="space-y-2">
@@ -116,7 +111,6 @@ const CoursesFilter = ({ filters, setFilters, categories = [] }) => {
           </div>
         </div>
 
-        {/* Clear Filters */}
         <div className="flex flex-col justify-center">
           <motion.button
             whileTap={{ scale: 0.95 }}

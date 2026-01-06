@@ -30,7 +30,7 @@ const HomePage = () => {
       { value: "2+", label: "Years" },
       { value: "5+", label: "Projects" }
     ] },
-     { name: "Ramswarup Swami", image: "/images/user.png", description: "6+ Years Experience in Full Stack Development",stats:[
+     { name: "Ramswarup Swami", image: "/images/user.png", description: "6+ Years Experience in Cyber Security",stats:[
       { value: "6+", label: "Years" },
       { value: "15+", label: "Projects" }
     ] },
@@ -137,9 +137,9 @@ const HomePage = () => {
   ]
   const testimonials = [
     {
-      name: "Neeraj Shekhawat",
+      name: "Rakshit Chasta",
       feedback: "MentriQ helped me build real projects and crack my first job.",
-      image: "/images/neeraj.jpg",
+      image: "/images/rakshit.jpeg",
     },
     {
       name: "Bhupendra Skekhawat",
@@ -165,12 +165,12 @@ const HomePage = () => {
     {
       name: "Bhanu Pratap",
       feedback: "The instructor explained complex topics like backend and databases very clearly.",
-      image: "/images/bhanu.jpg",
+      image: "/images/bhanu2.jpeg",
     },
     {
       name: "Disha sharma",
       feedback: "Real-world examples helped me understand how tech is used in the industry.",
-      image: "/images/disha2.jpg",
+      image: "/images/disha3.jpeg",
     },
     {
       name: "Saloni Choudhary",
@@ -278,66 +278,9 @@ const HomePage = () => {
 
   return (
     <>
-      {/* Hero Section */}
-      {/* <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-indigo-900 via-purple-900 to-cyan-900 text-white pt-16">
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-500/30 via-transparent to-transparent" />
-          <div className="absolute -top-40 -right-40 w-80 h-80 bg-indigo-500/20 rounded-full blur-3xl animate-pulse" />
-          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-cyan-500/20 rounded-full blur-3xl animate-pulse delay-1000" />
-        </div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.h1
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-            className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-white via-indigo-100 to-cyan-100 bg-clip-text text-transparent mb-8 leading-tight"
-          >
-            Transform Your
-            <span className="block bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
-              Career with MentriQ
-            </span>
-          </motion.h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.2 }}
-            className="text-xl md:text-2xl text-indigo-100 max-w-3xl mx-auto mb-12 leading-relaxed"
-          >
-            Master cutting-edge technologies with live training from industry experts.
-            Get job-ready with hands-on projects and guaranteed placement support.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto"
-          >
-            <button className="group flex items-center justify-center space-x-3 px-8 py-4 bg-gradient-to-r from-indigo-500 to-cyan-500 hover:from-indigo-600 hover:to-cyan-600 text-white font-bold text-lg rounded-2xl shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 w-full sm:w-auto">
-              <span onClick={() => navigate("/courses")}>Start Learning</span>
-              <ArrowRight size={24} className="group-hover:translate-x-2 transition-transform duration-300" />
-            </button>
-            <button onClick={() => navigate("/courses")} className="px-8 py-4 bg-white/20 backdrop-blur-xl border border-white/30 rounded-2xl text-white font-semibold hover:bg-white/30 hover:shadow-2xl transition-all duration-300 hover:scale-105">
-              Watch Demo
-            </button>
-          </motion.div>
-
-          <motion.p
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.6 }}
-            className="mt-12 text-indigo-200 text-lg font-semibold"
-          >
-            ✅ 30-Day Money Back Guarantee
-          </motion.p>
-        </div>
-      </section> */}
-      {/* Hero Section */}
+{/* Hero Section */}
 <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#020617] text-white pt-0">
   
-  {/* Background Effects */}
   <div className="absolute inset-0">
     <div className="absolute top-[-120px] left-[-120px] w-[320px] h-[320px] bg-indigo-600/20 rounded-full blur-3xl" />
     <div className="absolute bottom-[-120px] right-[-120px] w-[320px] h-[320px] bg-teal-500/20 rounded-full blur-3xl" />
@@ -407,9 +350,6 @@ const HomePage = () => {
     
   </div>
 </section>
-
-      
-
       <section className="py-24 relative overflow-hidden bg-gradient-to-r from-slate-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -483,28 +423,12 @@ const HomePage = () => {
       </section>
 
 
-      {/* <div className="w-full py-16 bg-gray-50">
-        <h2 className="text-3xl font-bold text-center mb-12">Our Mentors</h2>
-
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-          {mentors.map((mentor, index) => (
-            <div key={index} className="flex flex-col items-center bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-500">
-              <img
-                src={mentor.image}
-                className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-indigo-500"
-              />
-              <h3 className="text-xl mb-4 font-semibold text-green-500">{mentor.name}</h3>
-              <h4 className='px-1 text-gray-500 text-sm mt-3 flex justify-center items-center'>{mentor.description}</h4>
-            </div>
-          ))}
-        </div>
-      </div> */}
+    
       {/*mentors*/}
      <section className="py-24 relative bg-gray-100 overflow-hidden">
         <h2 className="text-4xl font-bold text-center mb-16">
-          Meets Our World Class Mentor
+          Meets Our World Class Mentor's
         </h2>
-        {/* <div className='relative w-full bg-gray-100 overflow-hidden'> */}
         <motion.div
           className="flex gap-8"
           animate={{ x: [-0,-((mentors.length * 2)*340)] }}
@@ -557,16 +481,15 @@ const HomePage = () => {
       {/*testinomial*/}
       <section className="py-24 relative bg-gray-100 overflow-hidden">
         <h2 className="text-4xl font-bold text-center mb-16">
-          What Our Students Say
+          What Our Students Say's
         </h2>
-        {/* <div className='relative w-full bg-gray-100 overflow-hidden'> */}
         <motion.div
           className="flex gap-8"
           animate={{ x: [-0,-((testimonials.length * 2)*340)] }}
           transition={{
             repeat: Infinity,
             repeatType:"loop",
-            duration: 120,
+            duration: 140,
             ease: "linear",
           }}
           drag={false}
@@ -650,44 +573,7 @@ const HomePage = () => {
       </section>
 
 
-      {/*languages */}
-      {/* <section className="py-24 bg-gray-900 text-white overflow-hidden">
-        <h2 className="text-4xl font-bold text-center mb-16">
-          Technologies You Will Learn
-        </h2>
-
-        <motion.div
-          className="flex gap-8 px-8"
-          animate={{ x: ["0%", "-100%"] }}
-          transition={{
-            repeat: Infinity,
-            duration: 30,
-            ease: "linear",
-          }}
-        >
-          {[...technologies, ...technologies].map((tech, index) => (
-            <div
-              key={index}
-              className={`
-          min-w-[200px] h-[180px]
-          rounded-3xl shadow-2xl
-          bg-gradient-to-br ${tech.color}
-          flex flex-col items-center justify-center
-          hover:scale-110 transition-transform duration-300
-        `}
-            >
-              <img
-                src={tech.logo}
-                alt={tech.name}
-                className="w-14 h-14 mb-4 object-contain"
-              />
-              <p className="text-lg font-bold">{tech.name}</p>
-            </div>
-          ))}
-        </motion.div>
-      </section> */}
-
-      {/* Technologies */}
+      
 {/* Technologies */}
 <section className="py-24 relative bg-gray-900 text-white overflow-hidden">
   <h2 className="text-4xl font-bold text-center mb-16">
