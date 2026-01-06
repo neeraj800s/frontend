@@ -26,7 +26,7 @@ const HomePage = () => {
       { value: "5+", label: "Years" },
       { value: "15+", label: "Projects" }
     ] },
-    { name: "Yogesh Singh", image: "/images/yogesh.jpg", description: "2+ Years Experience in EntrepreneurShip and Product Management",stats:[
+    { name: "Yogesh Shekhawat", image: "/images/yogesh.jpg", description: "2+ Years Experience in EntrepreneurShip and Product Management",stats:[
       { value: "2+", label: "Years" },
       { value: "5+", label: "Projects" }
     ] },
@@ -42,7 +42,7 @@ const HomePage = () => {
       { value: "8+", label: "Years" },
       { value: "20+", label: "Projects" }
     ] },
-    { name: "Lakhan dadhich", image: "/images/lakhan.jpg", description: "3+ Years Experience in Product Management",stats: [
+    { name: "Lakhan Dadhich", image: "/images/lakhan.jpg", description: "3+ Years Experience in Product Management",stats: [
       { value: "3+", label: "Years" },
       { value: "7+", label: "Projects" }
     ] },
@@ -62,7 +62,7 @@ const HomePage = () => {
       { value: "2+", label: "Years" },
       { value: "5+", label: "Projects" }
     ] },
-    { name: "Dharampal Singh", image: "/images/dharampalsingh.jpg", description: "2+ Years Experience in Full Stack Development" ,stats: [
+    { name: "Dharam Pal Singh", image: "/images/dharampalsingh.jpg", description: "2+ Years Experience in Full Stack Development" ,stats: [
       { value: "2+", label: "Years" },
       { value: "5+", label: "Projects" }
     ]},

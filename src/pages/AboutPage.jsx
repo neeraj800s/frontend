@@ -3,10 +3,10 @@ import { Users, BookOpen, Award, Clock, Play, GraduationCap } from 'lucide-react
 
 const AboutPage = () => {
   const stats = [
-    { number: '3K+', icon: Users, label: 'Students Trained' },
+    { number: '2K+', icon: Users, label: 'Students Trained' },
     { number: '50+', icon: BookOpen, label: 'Live Courses' },
     { number: '98%', icon: Award, label: 'Placement Rate' },
-    { number: '100+', icon: Clock, label: 'Expert Trainers' }
+    { number: '60+', icon: Clock, label: 'Expert Trainers' }
   ]
 
   const timeline = [
