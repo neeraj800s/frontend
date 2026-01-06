@@ -142,12 +142,12 @@ const ContactPage = () => {
                 className="group bg-white/70 backdrop-blur-xl rounded-3xl p-8 border border-white/50 shadow-xl hover:shadow-2xl transition-all duration-500"
               >
                 <div className="flex items-center space-x-4 mb-4">
-                  <div className="w-16 h-16 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-2xl flex items-center justify-center shadow-lg">
-                    <Mail className="w-8 h-8 text-white" />
+                  <div className="w-16 h-16 bg-gradient-to-r from-indigo-500  to-cyan-500 rounded-2xl flex items-center justify-center shadow-lg">
+                    <Mail size={32} className="text-white" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 group-hover:text-indigo-600">Email</h3>
-                    <a href="mailto:hello@mentriq.com" className="text-2xl font-bold text-indigo-600 hover:text-indigo-700">support@mentriqtechnologies.in</a>
+                    <a  className="sm:text-2xl font-bold text-indigo-600 hover:text-indigo-700 break-all sm:break-normal">support@mentriqtechnologies.in</a>
                   </div>
                 </div>
               </motion.div>
@@ -158,11 +158,11 @@ const ContactPage = () => {
               >
                 <div className="flex items-center space-x-4 mb-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl flex items-center justify-center shadow-lg">
-                    <Phone className="w-8 h-8 text-white" />
+                    <Phone size={32} className="text-white" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 group-hover:text-emerald-600">Phone</h3>
-                    <a href="tel:+919876543210" className="text-2xl font-bold text-emerald-600 hover:text-emerald-700">+91 8890301264</a>
+                    <a  className="text-2xl font-bold text-emerald-600 hover:text-emerald-700">+91 8890301264</a>
                   </div>
                 </div>
               </motion.div>
@@ -173,7 +173,7 @@ const ContactPage = () => {
               >
                 <div className="flex items-center space-x-4 mb-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg">
-                    <MapPin className="w-8 h-8 text-white" />
+                    <MapPin size={32} className=" text-white" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 group-hover:text-purple-600">Location</h3>

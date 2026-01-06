@@ -11,7 +11,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   const stats = [
-    { number: '3K+', icon: Users, label: 'Students Trained' },
+    { number: '2K+', icon: Users, label: 'Students Trained' },
     { number: '50+', icon: BookOpen, label: 'Live Courses' },
     { number: '98%', icon: Award, label: 'Placement Rate' },
     { number: '100+', icon: Clock, label: 'Expert Trainers' }
@@ -244,18 +244,18 @@ const HomePage = () => {
 
 
   const partners = [
-    { name: "HD Media Network", logo: "/images/hdmedia.jpg" },
+    { name: "HD Media Network", logo: "/images/hdmn.png" },
     { name: "SkyServer", logo: "/images/skyserver.jpg" },
-    { name: "Singh Enterprises", logo: "/images/singh.jpg"},
+    { name: "Singh Enterprises", logo: "/images/singh2.jpeg"},
     { name: "Falcons Beyond Imagination", logo: "/images/falcons.png" },
     { name: "Voltzenic Motors", logo: "/images/volt.png" },
     { name: "Ashok Infratech", logo: "/images/ashok.jpg" },
-    { name: "Shekhawat Group of Industries", logo: "/images/shekhawat.png"},
+    { name: "Shekhawat Group of Industries", logo: "/images/shekhawat2.jpeg"},
     { name: "BIMPro Solutions pvt ltd", logo: "/images/bimpro.jpg"},
     { name: "Milan Power", logo: "/images/milanPower.png"},
     { name: "PU incent", logo: "/images/puIncent.png"},
-    { name: "UPnex", logo: "/images/upnex.jpg"},
-    { name: "NT Education", logo: "/images/nt.jpg"},
+    { name: "UPnex", logo: "/images/upnex2.jpeg"},
+    { name: "NT Education", logo: "/images/nt2.jpeg"},
   ]
 
   const technologies = [
@@ -328,7 +328,7 @@ const HomePage = () => {
       </div>
 
       <p className="mt-10 text-gray-400 font-semibold">
-        ✅ 30-Day Money Back Guarantee
+        ✅ 15-Day Money Back Guarantee
       </p>
     </motion.div>
 
@@ -427,7 +427,7 @@ const HomePage = () => {
       {/*mentors*/}
      <section className="py-24 relative bg-gray-100 overflow-hidden">
         <h2 className="text-4xl font-bold text-center mb-16">
-          Meets Our World Class Mentor's
+          Meet Our World Class Mentor's
         </h2>
         <motion.div
           className="flex gap-8"
